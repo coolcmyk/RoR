@@ -1,0 +1,18 @@
+[package]
+name = "rag_gemini"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+candid = "0.10.13"
+anyhow = "1.0.75"
+lopdf = "0.36.0"
+gemini-rs = "1.1.0"
+tokio = { version = "1", features = ["full"] }
+regex = "1.11.1"
+pdf-extract = "0.8.2"
+image = "0.25.6"
+libpdf = "0.3.0"
