@@ -9,7 +9,7 @@ use anyhow::Result;
 #[tokio::main]
 async fn main() -> Result<()> {
     let mut rag_system = RAGSystem::new();
-    let pdf_path = "../pdfs/rag.pdf";
+    let pdf_path = "../../pdfs/rag.pdf";
     let text_output_path = "bin/processed.txt";
     // let image_output_dir = "src/DecentraLearn_backend/src/bin";
 

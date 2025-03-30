@@ -4,7 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
+name = "rag_gemini"
 crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[[bin]]
+name = "rag_gemini"
+path = "src/main.rs"
+
 
 [dependencies]
 candid = "0.10.13"
